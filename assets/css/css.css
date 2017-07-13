@@ -1,0 +1,511 @@
+
+/*----------------------------------------*/
+/*----- 1.6 Button styles -----*/
+/*----------------------------------------*/
+.mybtn, .mybtn-green {
+	background: #232528;
+	width: auto;
+	padding: 15px 30px;
+	margin: 10px 0px;
+	font-size: 16px;
+	color: #fff !important;
+	line-height: 16px;
+	cursor: pointer;
+	display: inline-block;
+}
+.mybtn-green {
+	background: #59ba2e;
+}
+.mybtn-big-green, .mybtn-big-blue {
+	background: #59ba2e;
+	width: auto;
+	padding: 20px 70px;
+	margin: 10px 0px;
+	font-size: 20px;
+	color: #fff !important;
+	line-height: 20px;
+	cursor: pointer;
+	display: inline-block;
+	-moz-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.mybtn-big-blue {
+	background: #4f82b6;
+}
+.mybtn-green:hover, .mybtn-big-green:hover {
+	background: #035501;
+}
+.mybtn:hover, .mybtn-big-blue:hover {
+	background: #59ba2e;
+}
+/*============================================================*/
+/*---------- 2. TEMPLATE STRUCTURE ----------*/
+/*============================================================*/
+
+/*----------------------------------------*/
+/*----- 2.3 Slider  -----*/
+/*----------------------------------------*/
+#slider-wrapper {
+	background: url(/tienganh/assets/images/slider-bg-img.jpg) no-repeat center top;
+	padding-top: 40px;
+	color: #fff;
+	text-align: center;
+}
+#slider-wrapper h1, #slider-wrapper h2, #slider-wrapper h3, #slider-wrapper h4, #slider-wrapper h5, #slider-wrapper h6 {
+	color: #fff;
+}
+/*----------------------------------------*/
+
+@media only screen and (max-width: 767px) {
+body {
+padding: 0;
+}
+.container {
+margin-left: 20px;
+margin-right: 20px;
+}
+#header {
+text-align: center;
+}
+.logo {
+text-align: center;
+margin-bottom: 20px;
+}
+.phone {
+ padding: 5px 35px 5px 35px;
+ float: none;
+}
+.modal.fade.in {
+ top: 15%;
+}
+.modal-body input {
+z-index: 9999;
+}
+.submit {
+width: 100% !important;
+}
+h1 {
+font-size: 35px;
+}
+form {
+margin-bottom: 20px;
+}
+.spacer-70px {
+height: 20px !important;
+}
+}
+
+/*----------------------------------------*/
+/*----- 3.2 Mobile (Landscape) / Design for a width of 480px -----*/
+/*----------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/*All are same as Portrait*/
+}
+
+/*----------------------------------------*/
+/*----- 3.3 Tablet-ipad (Portrait & Landscape) / Design for a width of 768px -----*/
+/*----------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+body {
+font-size: 15px;
+}
+.submit {
+width: 100% !important;
+}
+h1 {
+font-size: 40px;
+}
+.icon-big li {
+ -webkit-border-radius: 115px;
+ -moz-border-radius: 115px;
+ border-radius: 115px;
+}
+.icon-big li img {
+ width: 115px;
+height: 115px;
+}
+.spacer-70px {
+height: 0px !important;
+}
+.boxed-features p {
+ margin-bottom: 10px;
+}
+}
+
+/*===============Start Course================ */
+h1, h2, h3, h4 {
+    color: #008000;
+}
+h1, h2, h3, h4 {
+    font-weight: 300;
+}
+/*===============End Course================ */
+
+.sep {
+    height: 20px;
+    margin: 15px auto 40px;
+}
+
+span.star {
+    display: block;
+    height: 20px;
+    margin: 0 auto -6px;
+    width: 60px;
+}
+
+span.rule-l {
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    float: left;
+    height: 1px;
+    width: 46%;
+}
+
+span.rule-r {
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    float: right;
+    height: 1px;
+    width: 46%;
+}
+
+
+.wrapper  { width:1170px; margin:0 auto; }
+/* ---- 5 .  Extras CurrSection ----  */
+
+.extras { display:block; height: 500px; }
+.extras-txt  { width:50%; float:left;}
+.extras-slider { width:50%; float:right; background:url("/tienganh/assets/images/imac.png") no-repeat; height:428px; width:467px; }
+.extras-slider img   { margin:18px 19px 0; width:424px; }
+.extras-txt h1 { font-size:16px; color:#4b4b4b; margin:0; font-family: Arial, Helvetica, sans-serif; }
+.extras-txt p { font-size:14px; font-weight:400; color:#7b7b7b; margin:35px 0 0; line-height:2.2; }
+.extras-txt p.subtitle2 { font-size:16px; font-weight:400; color:#555555; margin:28px 0 0; }
+
+.extras ul {  margin:40px 0 0px 0; }
+.extras ul li { color:#7b7b7b; margin:0 0 35px 0; padding:0 0 0 25px; height:17px; display:block; background: url("/Content/themes/pagesale-new/images/tick.png") no-repeat scroll left center transparent; }
+
+.buttons { width:100%; margin:50px 0 0;}
+.buttons a { float:left; width:160px; display:block; border-radius:4px; text-align:center; padding:12px; font-weight:500; color:#ffffff; font-size: 18px;}
+
+.buttons p { float:left; margin:5px 17px 0; font-weight:700; color:#6c7b82; font-size:14px; }
+
+.buttons .bt1 { background-color:#008000; }
+.buttons .bt1:hover {background-color: #035501}
+.buttons .bt2 {
+    background-color: #4DAD40;
+    border: 1px solid #328327;
+}
+
+.bt2-w .button-h { background-color:#555555!important; border:1px solid #494949!important;  }
+
+
+/* ---- 6 .  Testimonails CurrSection ----  */
+.carousel1 .testimonials {
+	background: none;
+}
+.carousel2 .testimonials {
+	background: none;
+}
+.carousel3 .testimonials {
+	background: none;
+}
+
+.testimonials { display:block; background-color: #4DAD40; height: 325px;}
+.testimonials h1 { text-align:center; font-size:28px; text-shadow:1px 1px 1px rgba(0,0,0,0.1); padding-top: 20px; color:#fff;}
+.testimonials p.subtitle2 { text-align:center; margin:10px 0 0; font-size:18px; color: #fff; }
+
+
+.testi-pic { height:57px; display:block; width:115px; margin:0 auto;}
+.testi-txt { padding:85px 0 0; background-color:#fff; border-radius:4px; min-height:120px; display:block; }
+.testi-pic img {
+    border-radius: 50%;
+}
+.testi-txt p { padding:0 16px; text-align:center; font-size:13px; font-weight:500; color:#6c7b82; line-height:2.2;}
+
+.testi-txt p.testi { color:#6c7b82; font-size:15px; font-weight:600; margin:20px 0 0;}
+
+
+.testi-w { margin:30px 0 0; }
+
+.testi-slider { height:390px; }
+.testi-controls { width:64px; margin:15px auto 0; }
+.testi-controls a { float:left; }
+.testi-controls span { float:left;  width:8px; height:26px; margin:0 10px;  display:block; background:url("/Content/themes/pagesale-new/images/span.png") center no-repeat; }
+
+#prev2 { width:18px; height:26px;  display:block; background:url("/tienganh/assets/images/prev.png") no-repeat; }
+#next2 { width:18px; height:26px; display:block; background:url("/tienganh/assets/images/next.png") no-repeat; }
+
+.guideTest {
+    width: 100%;
+    float: left;
+}
+.guideTest ul{ width: 100%; float: left}
+.guideTest ul li {
+    width: auto;
+    float: left;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.guideTest ul li span {
+    background-color: #328327;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 700;
+    float: left;
+    height: 40px;
+    width: 40px;
+    padding: 20px 10px 0;
+    margin-right: 20px;
+}
+.guideTest ul li img { float: left;padding-top: 15px;margin-right: 20px;width: 155px}
+.guideTest ul li a { color: #747474;}
+.guideTest ul li a:hover{ color: #328327; text-decoration: underline !important}
+
+.w235{ width: 235px !important;margin-right: 20px;}
+.mt30{ margin-top: 30px;}
+.mt20{ margin-top: 20px;}
+.regish1{color: #008000;font-size: 16px;text-decoration: underline}
+.chos{ color: #008000;font-size: 16px;text-decoration: underline}
+
+
+@media(min-width: 768px) and (max-width: 979px) {
+    .wrapper  { width:725px;  }
+    .extras-txt { width:70%; margin:0 auto; float:none; }
+    .buttons { width:375px; margin:35px auto 35px; height:70px; }
+    .extras-slider { float:none; margin:0px auto; }
+    .extras { height:940px; padding:40px 0 65px;  }
+    .testi-txt p { font-size:12px; }
+    .testi-txt p.testi { font-size:14px; }
+    .extras-txt h1 { font-size: 20px; text-align:center;}
+    h3{ font-size: 18px;}
+
+    .guideTest ul li{ font-size: 14px;}
+    .guideTest ul li span{ height: 30px; width: 30px; padding: 15px 10px 5px;}
+    .guideTest ul li img { width: 105px;}
+    .w235{ width: 175px !important;}
+}
+
+@media(min-width: 480px) and (max-width: 767px) {
+    .wrapper { width:460px; }
+    .extras-txt { width:100%; margin:0 auto; float:none; }
+    .extras-txt h1 { font-size:18px; text-align:center; }
+    .buttons { width:375px; margin:35px auto 35px; height:70px; }
+    .extras { height:950px; padding:40px 0 65px;  }
+    .extras-slider { float:none; margin:0px auto;}
+    .testimonials h1 { font-size:24px; }
+    .testimonials p.subtitle2  { font-size:16px; }
+    .testi-txt { height:180px; margin:0 0 60px; }
+    .testimonials { height:1440px; }
+    .testi-slider {  height:1200px; }
+    .row-fluid .span3{ width: 50%; float: left}
+    .extra .span4{ width: 100%; float: left;}
+    .testimonials .span4{ width: 100%; float: left;}
+
+    .guideTest ul li{ font-size: 14px;}
+    .guideTest ul li span{ height: 20px; width: 20px; padding: 5px;}
+    .guideTest ul li img { width: 55px;}
+    .w235{ width: 105px !important;}
+}
+
+@media(max-width:480px) {
+    .wrapper { width:300px; }
+    .extras-txt { width:100%; margin:0 auto; float:none;}
+    .extras-txt h1 {   font-size:14px; line-height:2.2; text-align:center; }
+    .extras-slider { width:100%; background-size: 100% auto; height:100%; float:none; margin:0px auto; display: none;}
+    .extras-slider img { width:100%; margin:11px 9px 0;  }
+     #overlay_form2 { width:280px; }
+     #overlay_form2 iframe { height:200px;  }
+    .buttons { width:100%; margin:35px auto 35px; height:70px; }
+    .buttons a { width:122px; }
+    .extras { height:470px; padding:40px 0 65px;  }
+    .testimonials h1 { font-size:28px; line-height:2.2; }
+    .testimonials p.subtitle2  { font-size:16px; line-height:2; }
+    .testi-txt { height:180px; margin:0 0 60px; }
+    .testimonials { height:1400px; }
+    .testi-slider {  height:1200px; }
+    .span4 h3 { text-align: center;}
+    .mybtn-big-green, .mybtn-big-blue { padding: 10px;}
+    h3{ font-size: 18px;}
+    .courses .span4{ width: 100%; float: left;}
+    .extras{ padding: 0;}
+    .extra .span4 h3{ padding-top: 20px;}
+
+     .guideTest ul li{ font-size: 14px;}
+    .guideTest ul li span{ height: 20px; width: 20px; padding: 5px;}
+    .guideTest ul li img { width: 35px;}
+    .w235{ width: 100% !important}
+    .chos {display: none}
+}
+
+.extra ul.testimonials {
+    margin: 0;
+}
+
+/* Extra Info ----------------------------*/
+
+.extra {
+	padding: 10px 0 30px 0;
+}
+
+/* Extra Info - Video ----------------------------*/
+.extra .video{
+	margin:0 0 20px 0;
+	width:100%;
+}
+
+/* Extra Info - Testimonials ----------------------------*/
+.extra ul.testimonials {
+	margin:0;
+}
+.extra ul.testimonials li{
+	float:left;
+	list-style: none;
+	margin-top: 0px;
+	min-height: 80px;
+	padding-bottom: 0px;
+	width: 100%!important;
+}
+.extra ul.testimonials li:first-child{
+	margin-top: 0;
+}
+.extra ul.testimonials li img{
+	float: left;
+	height:80px;
+	width:80px;
+	margin: 10px 0;
+    border-radius: 50%;
+}
+.extra ul.testimonials li h5 {
+	margin: 10px 0 10px 100px;
+	font-size: 12px;
+	padding: 10px;
+	line-height: 16px;
+	display: block;
+	border: 1px solid #e1e1e1;
+	color: #555555;
+	position: relative;
+	font-weight: 500;
+}
+
+.extra ul.testimonials li h5:after {
+  position: absolute;
+  top: 50%;
+  left: -6px;
+  margin-top: -6px;
+  display: inline-block;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-right: 6px solid  #e1e1e1;
+  content: '';
+}
+
+a.navi-left{
+	display: block;
+	height: 16px;
+	width: 16px;
+	background-position: top left;
+	float: right;
+	cursor: pointer;
+}
+a.navi-left:hover{
+	background-position: bottom left;
+}
+a.navi-right{
+	display: block;
+	height: 16px;
+	width: 16px;
+	background-position: top right;
+	float: right;
+	margin-left: 4px;
+	cursor: pointer;
+}
+a.navi-right:hover{
+	background-position: bottom right;
+}
+
+/* Extra Info - Scholarships ----------------------------*/
+.extra img.scholarships {
+	margin:0 0 20px 0;
+}
+
+
+/* Courses ----------------------------*/
+
+.carrousell {
+
+}
+
+
+.navi-right {
+    background: url("/Content/themes/pagesale-new/images/navi.png") no-repeat scroll 0 0 transparent;
+}
+
+a.navi-left {
+    background: url("/Content/themes/pagesale-new/images/navi.png") no-repeat scroll 0 0 transparent;
+}
+
+.newsletter {
+    background-color: #008000;
+}
+.newsletter {
+    background-image: url("/Content/themes/pagesale-new/images/newsletter-bg.png");
+    background-position: 0 0;
+    background-repeat: repeat;
+    color: #FFFFFF;
+    padding: 30px 0 40px;
+    text-align: center;
+}
+
+.newsletter h2 {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 10px 0 5px;
+}
+
+.newsletter h3 {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 5px 0 15px;
+}
+
+.newsletter {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+.newsletter input {
+    border: medium none;
+    border-radius: 0 0 0 0;
+    font-family: 'Open Sans',sans-serif;
+    height: 30px;
+    margin: 0 4px 10px;
+    width: 220px;
+}
+
+
+.newsletter input.button {
+    color: #008000;
+}
+.newsletter input.button:hover {
+    color: #035501;
+    color: #fff;
+}
+.newsletter input.button {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none;
+    border-radius: 4px 4px 4px 4px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    height: auto;
+    line-height: 0;
+    padding: 19px 20px;
+    text-transform: uppercase;
+    width: auto;
+}

@@ -1,0 +1,418 @@
+body {
+	background: url(/tienganh/assets/images/00.png) repeat;
+	font-size: 14px;
+	color: #747678;
+	font-weight: normal;
+	line-height: 1.6em;
+}
+img, embed, object, video {
+	max-width: 100%;
+	height: auto; border: 0
+}
+video {
+	width: 100% !important;
+	height: auto !important;
+}
+iframe {border: none !important;}
+.img-support{ margin-left: 3px; border: 0 none;}
+/*----------------------------------------*/
+/*----- 1.2 Typography -----*/
+/*----------------------------------------*/
+/*only font families are specified here - font sizes and weights are in respective section*/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+}
+/*Other typography*/
+h1, h2, h3, h4, h5, h6 {
+	color: #232528;
+	font-weight: 700;
+	line-height: 1.3em;
+	margin-bottom: 15px;
+}
+h1 {
+	font-size: 48px;
+	margin-bottom: 5px;
+	line-height: 1.1em;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 20px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+.span6 h6 {
+	font-size: 11px !important;
+	font-weight: 500;
+}
+.span6 h6 a {
+    color: #fff !important;
+    text-shadow: none;
+    font-weight: normal !important;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: #747474;
+}
+a:link {
+	text-decoration: none;
+	cursor: pointer;
+	font-style: normal;
+	outline: none;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+a:visited {
+	color: #747678;
+}
+a:hover, a:focus {
+	color: #747678;
+    text-decoration: none !important;
+}
+.color {
+	color: #4f82b6 !important;
+	font-size: inherit !important;
+	line-height: inherit !important;
+	font-weight: inherit !important;
+	text-transform: inherit !important;
+	display: inline !important;
+}
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-small {
+	font-size: 14px;
+}
+
+/*----------------------------------------*/
+/*----- 2.2 Header  -----*/
+/*----------------------------------------*/
+#header {
+	padding: 2px 0px;
+	background-color: #035501;
+}
+.phone {
+	background: url(/tienganh/assets/images/icon-phone.png) no-repeat left;
+	padding: 10px 0 0 35px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 1.6em;
+	float: right;
+	margin-left: 10px;
+}
+
+/*----------------------------------------*/
+/*----- 2.1 Commons / Content -----*/
+/*----------------------------------------*/
+#content {
+	background: url(/tienganh/assets/images/content-top-grad.png) repeat-x top;
+    padding: 30px 0;
+	border-top: 1px solid #fff;
+    min-height: 450px;
+}
+
+/* Footer --------------------------------*/
+
+footer {
+	padding:26px 0 0 0;
+}
+footer h6 {
+	color:#fff;
+}
+footer h6 a:hover {
+    color: #008000 !important;
+}
+nav#main ul {
+    float: right;
+    margin: 0;
+    padding: 5px 0;
+}
+nav ul, nav ol {
+    list-style: none outside none;
+}
+menu, ol, ul {
+    padding: 0;
+}
+nav#main li {
+    display: inline;
+    float: left;
+    margin-right: 2px;
+    padding: 0;
+}
+nav#main li a:hover, nav#main li.current a, nav#main .searchform {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4) inset, 0 1px 0 rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.796), 0 0 10px rgba(255, 255, 255, 0.298);
+}
+nav#main li a {
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    display: block;
+    padding: 6px 10px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.76);
+}
+nav#main li a img { width: 20px;}
+.right {
+    float: right;
+}
+nav a#pull {
+	display: none;
+}
+#social-op{ margin-top: 5px; display: none}
+._plug{ background-color: #fff; float: right}
+
+.xem{}
+.xem a{ color: red;}
+.xem a:hover{ color: #008000 !important;text-decoration: underline !important;}
+@media(min-width: 768px) and (max-width: 979px) {
+    /*.row .span3 { width: 30%;margin-left: 10px}
+    .row .span8{ width: 60%;}*/
+    .row .span3 { width: 100%;text-align: center; margin-left: 0}
+    .row .span8{ width: 100%;text-align: center;}
+    nav#main ul { display: inline-block; float: none}
+    body{ padding: 0 !important;}
+    h3{ font-size: 18px;}
+        ._plug{float: left}
+}
+
+@media(min-width: 480px) and (max-width: 767px) {
+    .row .span3 { width: 100%;text-align: center; margin-left: 0}
+    .row .span8{ width: 100%;text-align: center;}
+    nav#main ul { display: inline-block; float: none}
+    nav#main li a{padding: 6px 3px;}
+    body{ padding: 0 !important;}
+    .courses .span4{ width: 31.9149%; float: left;}
+    h3{ font-size: 16px;}
+    #ul-social{display: none}
+    #hel select{margin-bottom: 0; width: auto;}
+    #social-op{ display: block}
+    #sthoverbuttons{ display: none;}
+}
+
+@media(max-width:480px) {
+    .row .span3 { width: 100%;text-align: center; margin-left: 0}
+    .row .span8{ width: 100%;text-align: center;}
+    nav#main ul { display: none; float: none}
+    body{ padding: 0 !important;}
+    nav#main ul li { width: 100%;float: left;text-align: left;}
+    nav a#pull {
+	    display: block;
+	    width: 100%;
+	    position: relative;
+        height: 30px;
+        color: #fff;
+        text-align: left;
+        font-weight: 600;
+        border-top: 1px solid #fff;
+    }
+    nav a#pull:after {
+	    content:"";
+	    background: url('/tienganh/assets/images/nav-icon.png') no-repeat;
+	    width: 30px;
+	    height: 30px;
+	    display: inline-block;
+	    position: absolute;
+	    right: 0;
+	    top: 5px;
+    }
+    .padLeft10{ padding-left: 10px;}
+    h3{ font-size: 16px;}
+    .courses .span4{ width: 100%; float: left;}
+    #ul-social{display: none}
+    #sthoverbuttons{ display: none;}
+    #social-op{ display: block}
+    #hel select{margin-bottom: 0; width: auto;}
+    /*#slider-wrapper{ display: none;}*/
+    #list-cour{display: none}
+
+}
+
+#toTop {
+    background: url("/tienganh/assets/images/ui.totop.png") no-repeat scroll left top transparent;
+    border: medium none;
+    bottom: 30px;
+    display: none;
+    height: 51px;
+    overflow: hidden;
+    position: fixed;
+    right: 10px;
+    text-decoration: none;
+    text-indent: 100%;
+    width: 51px;
+    z-index: 9999;
+}
+#toTopHover {
+    background: url("/tienganh/assets/images/ui.totop.png") no-repeat scroll left -51px transparent;
+    display: block;
+    float: left;
+    height: 51px;
+    opacity: 0;
+    overflow: hidden;
+    width: 51px;
+}
+#toTop:active, #toTop:focus {
+    outline: medium none;
+}
+.size16{ font-size: 16px;}
+
+/* start courses*/
+
+.ch-img-1 {
+    background-image: url("/tienganh/assets/images/a2.jpg");
+}
+.ch-img-2 {
+    background-image: url("/tienganh/assets/images/toeic-45.jpg");
+}
+.ch-img-4 {
+    background-image: url("/tienganh/assets/images/general-45.jpg");
+}
+.ch-item {
+    /*border-radius: 50% 50% 50% 50%;*/
+    cursor: default;
+    display: block;
+    height: 45px;
+    margin: -45px auto 5px;
+    position: relative;
+    transition: all 0.4s ease-in-out 0s;
+    width: 100px;
+    border: 5px solid #E6E6E6;
+}
+.ch-info {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/*border-radius: 50%;*/
+	opacity: 0;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	-webkit-backface-visibility: hidden; /*for a smooth font */
+}
+
+.ch-info p a {
+	display: block;
+	color: #fff;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	line-height: 120px;
+}
+
+.ch-item:hover .ch-info {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+.courses {
+	padding: 0px 0 30px 0;
+}
+.courses .item {
+    margin-top: 32px;
+    padding: 20px;
+    text-align: center;
+}
+.courses .item p {
+    margin: 0 0 5px;
+}
+.courses h2 {
+    padding: 0 10px;
+}
+.courses .item .btn {
+    background: none repeat scroll 0 0 #008000;
+    border: 0 none;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    text-shadow: none;
+    /*text-transform: uppercase;*/
+}
+
+.btn-primary1 {
+    color: #ffffff;
+    background: none;
+    background-color: #035501;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    border-color: #429600 #429600 #357900;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    padding: 10px !important;
+}
+
+.btn-primary1:hover,
+.btn-primary1:focus,
+.btn-primary1:active,
+.btn-primary1.active,
+.btn-primary1.disabled,
+.btn-primary1[disabled] {
+    background: none;
+    color: #ffffff;
+  background-color: #008000;
+  *background-color: #008000;
+  background-image: -moz-linear-gradient(top, #008000, #429600);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#008000), to(#429600));
+  background-image: -webkit-linear-gradient(top, #008000, #429600);
+  background-image: -o-linear-gradient(top, #008000, #429600);
+  background-image: linear-gradient(to bottom, #008000, #429600);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008000', endColorstr='#429600', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.close {
+    opacity: 0.5 !important;
+}
+
+.close:hover {
+    opacity: 1 !important;
+}
+
+/* end course*/
+/*p a {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #747678;
+    padding: 0 5px;
+}
+p a:hover {
+    color: #008000;
+    text-decoration: underline;
+}*/
+.mt_5{ margin-top: -5px;}
+.direct{ width: 100%;padding-bottom: 20px;float: left;}
+.direct ul li{ float: left;padding: 0 !important;}
+.direct ul li a{ color: #333; padding: 0 10px;float: left;}
+.direct ul li a:hover{text-decoration: underline !important; color: #357900}
+.direct-active { padding: 0 10px; float: left}
+.size0{ font-size: 0px;padding: 0;margin: 0;}
